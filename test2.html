@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="container">
+          <div class="control">
+            <form action="index.html">
+              <div class="field">
+                <label class="label">ID</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="ID" />
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                  <input class="input" type="password" placeholder="Password" />
+                </div>
+              </div>
+
+              <div class="control">
+                <label class="label">비밀번호 찾기 질문</label>
+                <div class="select">
+                  <select>
+                    <option>나의 고향은?</option>
+                    <option>내가 키운 첫번째 반려동물은?</option>
+                    <option>내가 다닌 초등학교의 이름은?</option>
+                  </select>
+                </div>
+              </div>
+              <label class="label">자기소개</label>
+              <div class="field">
+                <div class="control">
+                  <textarea
+                    class="textarea"
+                    placeholder="Info textarea"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="field">
+                <p class="control">
+                  <button type="submit" class="button is-success">
+                    Submit
+                  </button>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
