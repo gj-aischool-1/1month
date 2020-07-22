@@ -1,0 +1,31 @@
+div {
+  background-color: blanchedalmond;
+}
+
+.div2 {
+  background-color: burlywood;
+}
+
+#div3 {
+  background-color: blue;
+}
+
+#div3:hover {
+  background-color: crimson;
+}
+
+p {
+  font-family: cursive;
+}
+
+#img_con {
+  text-align: center;
+}
+
+#img_con:hover {
+  background-color: white;
+}
+
+img {
+  margin: 100px;
+}
