@@ -1,0 +1,17 @@
+#container {
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+
+  background-color: magenta;
+
+  border-radius: 10px;
+}
