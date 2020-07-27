@@ -12,11 +12,50 @@
 .c1 {
   width: 30%;
   height: 50%;
-  background-color: magenta;
+
   margin: 2px;
   border-radius: 10px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: lightgreen;
+  animation-name: BGC;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes BGC {
+  0% {
+    background: #ff2400;
+  }
+
+  10% {
+    background: orange;
+  }
+
+  30% {
+    background: #e8b71d;
+  }
+
+  40% {
+    background: #e3e81d;
+  }
+
+  60% {
+    background: #1de840;
+  }
+
+  70% {
+    background: #1ddde8;
+  }
+
+  90% {
+    background: #2b1de8;
+  }
+
+  100% {
+    background: #dd00f3;
+  }
 }
